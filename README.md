@@ -1,5 +1,5 @@
 # EmployeeManagement-API
-
+<pre>
 Employee Management api is a rest api which is used to do CRUD operations on Employee.This application developed using SpringBoot,Mysql.
 
 Database Setup:
@@ -11,7 +11,7 @@ Database Setup:
 
 It has below operations :
 
-1.AddEmployee:<br>
+1.AddEmployee:
     Request url (POST) :http://localhost:8080/employeeManagement/addemployee
     Input:
     {
@@ -38,3 +38,4 @@ It has below operations :
 
 5.DeleteEmployeeById:
     Request url(DELETE) :http://localhost:8080/employeeManagement/deleteemployee/{id}
+</pre>
