@@ -4,7 +4,15 @@ Employee Management api is a rest api which is used to do CRUD operations on Emp
 
 Database Setup:
 
-1. Import sql file, which contains employee table structure.
+1. create table structure as mentioned below .
+    
+    CREATE TABLE `employees` (
+  `emp_id` int NOT NULL AUTO_INCREMENT,
+  `emp_name` varchar(20) NOT NULL,
+  `emp_designation` varchar(50) DEFAULT NULL,
+  `emp_salary` float NOT NULL,
+   PRIMARY KEY (`emp_id`));
+
 2. Add database properties in application.properties file.
 3. Start Mysql server.
 4. Run this Springboot application.
