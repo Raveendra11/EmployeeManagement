@@ -29,7 +29,7 @@ It has below operations :
     }
 
 2.GetAllEmployees:
-    Request url(GET) :http://localhost:8080/employeeManagement/allemployee
+    Request url(GET) :http://localhost:8080/employeeManagement/allemployees
 
 3.GetEmployeeById:
     Request url(GET) :http://localhost:8080/employeeManagement/getemployee/{id}
